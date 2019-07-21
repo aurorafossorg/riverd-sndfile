@@ -40,3 +40,5 @@ version(RiverD_sndfile_Static) {
 } else {
 	public import riverd.sndfile.dynload;
 }
+
+public import riverd.sndfile.types;
